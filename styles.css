@@ -88,6 +88,11 @@
         padding: 10px; /* Adjust padding for smaller screens */
     }
 
+    .rectangle img {
+    width:auto;
+    border-radius: 10px;
+}
+
     .inner-rectangle {
         width: 100%; /* Make the inner rectangle full width on smaller screens */
     }
