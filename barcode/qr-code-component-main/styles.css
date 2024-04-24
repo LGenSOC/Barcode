@@ -1,0 +1,108 @@
+
+
+ body {
+    background-color: hsl(212, 45%, 89%); 
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.rectangle {
+    width: 320px;
+    height: 473px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 16px;
+    border-radius: 10px;
+    
+}
+
+.rectangle img {
+    width:100%;
+    border-radius: 10px;
+}
+
+
+.inner-rectangle {
+    width: 288px;
+    height: 288px;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+   
+    
+}
+
+
+.inner-rectangle.bottom {
+    width: 288px;
+    height: 129px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    gap: 4px;
+    font-size: 11px;
+    text-align: center;
+    padding: 0 16px; /* Add this line */
+}
+
+
+.inner-rectangle.bottom h1 {
+    font-family: 'Arial', sans-serif; /* Change 'Arial' to your desired font for h1 */
+    font-weight: bold; /* Make the h1 element bold */
+    margin-bottom: 3px; /* Adjust the margin between h1 and p */
+    font-family: 'Montserrat', sans-serif; /* Set Montserrat as the font for h1 and p */
+   
+}
+
+.inner-rectangle.bottom p {
+    font-family: 'Helvetica', sans-serif; /* Change 'Helvetica' to your desired font for p */
+     margin-top: 3px; /* Adjust the margin between p and h1 */
+     color: gray; /* Change the color of the p element to gray */
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif; /* Set Montserrat as the font for h1 and p */
+}
+
+
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .rectangle {
+        width: 90%; /* Adjust the width for smaller screens */
+        height: auto; /* Allow the height to adjust based on content */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .inner-rectangle {
+        width: 100%; /* Make the inner rectangle full width on smaller screens */
+    }
+
+    .inner-rectangle.bottom {
+        height: auto; /* Allow the height to adjust based on content */
+    }
+
+    .inner-rectangle.bottom h1 {
+        font-size: 20px; /* Adjust font size for h1 on smaller screens */
+        margin-bottom: 5px; /* Adjust margin for h1 on smaller screens */
+    }
+
+    .inner-rectangle.bottom p {
+        font-size: 14px; /* Adjust font size for p on smaller screens */
+        margin-top: 5px; /* Adjust margin for p on smaller screens */
+    }
+}
