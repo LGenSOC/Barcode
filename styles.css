@@ -94,7 +94,7 @@
 }
 
     .inner-rectangle {
-        width: 100%; /* Make the inner rectangle full width on smaller screens */
+        width: auto; /* Make the inner rectangle full width on smaller screens */
     }
 
     .inner-rectangle.bottom {
