@@ -81,33 +81,11 @@
 
 
 /* Media query for smaller screens */
-@media only screen and (max-width: 100px) {
-    .rectangle {
-        width: auto; /* Adjust the width for smaller screens */
-        height: auto; /* Allow the height to adjust based on content */
-        padding: 10px; /* Adjust padding for smaller screens */
-    }
+@media only screen and (max-width: 600px) {
+   
 
     .rectangle img {
     width:auto;
     border-radius: 10px;
 }
-
-    .inner-rectangle {
-        width: auto; /* Make the inner rectangle full width on smaller screens */
-    }
-
-    .inner-rectangle.bottom {
-        height: auto; /* Allow the height to adjust based on content */
-    }
-
-    .inner-rectangle.bottom h1 {
-        font-size: 20px; /* Adjust font size for h1 on smaller screens */
-        margin-bottom: 5px; /* Adjust margin for h1 on smaller screens */
-    }
-
-    .inner-rectangle.bottom p {
-        font-size: 14px; /* Adjust font size for p on smaller screens */
-        margin-top: 5px; /* Adjust margin for p on smaller screens  */ 
-    }
 }
