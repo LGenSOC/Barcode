@@ -92,12 +92,14 @@ body {
 
 /* Paragraph styling inside bottom section */
 .inner-rectangle.bottom p {
-    font-family: 'Montserrat', sans-serif;
-    color: gray;
-    font-size: 15px;
-    line-height: 1.5;
-    margin-top: 4px;
+    font-family: 'Helvetica', sans-serif; /* Change 'Helvetica' to your desired font for p */
+     margin-top: 3px; /* Adjust the margin between p and h1 */
+     color: gray; /* Change the color of the p element to gray */
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif; /* Set Montserrat as the font for h1 and p */
 }
+
+
 
 /* Media query for smaller screens */
 @media only screen and (max-width: 600px) {
